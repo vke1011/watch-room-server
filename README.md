@@ -42,7 +42,7 @@ docker run -d \
   ghcr.io/vke1011/watch-room-server:latest
 ```
 
-GitHub Container Registry: https://github.com/vke1011/watch-room-server/pkgs/container/watch-room-server
+**GitHub Container Registry**: https://github.com/vke1011/watch-room-server/pkgs/container/watch-room-server
 
 详细的 Docker 部署选项请查看 [Docker 部署](#docker-部署) 章节。
 
@@ -153,7 +153,7 @@ services:
 docker-compose up -d
 ```
 
-GitHub Container Registry: https://github.com/vke1011/watch-room-server/pkgs/container/watch-room-server
+**GitHub Container Registry**: https://github.com/vke1011/watch-room-server/pkgs/container/watch-room-server
 
 ### 使用 Docker Compose（从源码构建）
 
