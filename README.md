@@ -39,10 +39,10 @@ docker run -d \
   -p 3001:3001 \
   -e AUTH_KEY=your-secret-key \
   -e ALLOWED_ORIGINS=https://your-domain.com \
-  cyc233/watch-room-server:latest
+  ghcr.io/vke1011/watch-room-server:latest
 ```
 
-**Docker Hub**: https://hub.docker.com/r/cyc233/watch-room-server
+GitHub Container Registry: https://github.com/vke1011/watch-room-server/pkgs/container/watch-room-server
 
 详细的 Docker 部署选项请查看 [Docker 部署](#docker-部署) 章节。
 
@@ -118,7 +118,7 @@ npm start
 
 ```bash
 # 拉取镜像
-docker pull cyc233/watch-room-server:latest
+docker pull ghcr.io/vke1011/watch-room-server:latest
 
 # 运行容器
 docker run -d \
@@ -127,7 +127,7 @@ docker run -d \
   -p 3001:3001 \
   -e AUTH_KEY=your-secret-key \
   -e ALLOWED_ORIGINS=https://your-domain.com \
-  cyc233/watch-room-server:latest
+  ghcr.io/vke1011/watch-room-server:latest
 ```
 
 或使用 Docker Compose：
@@ -137,7 +137,7 @@ version: '3.8'
 
 services:
   watch-room-server:
-    image: cyc233/watch-room-server:latest
+    image: ghcr.io/vke1011/watch-room-server:latest
     container_name: watch-room-server
     restart: unless-stopped
     ports:
@@ -153,7 +153,7 @@ services:
 docker-compose up -d
 ```
 
-**Docker Hub 地址**: https://hub.docker.com/r/cyc233/watch-room-server
+GitHub Container Registry: https://github.com/vke1011/watch-room-server/pkgs/container/watch-room-server
 
 ### 使用 Docker Compose（从源码构建）
 
